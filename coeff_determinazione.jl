@@ -4,8 +4,8 @@ using Plots
 using CSV
 using DataFrames
 
-signal_acq = CSV.read("D:\\Università\\Elaborazione dei dati di misura\\DATI-carbone\\signal_acq.csv", DataFrame, header=false)
-sig = CSV.read("D:\\Università\\Elaborazione dei dati di misura\\DATI-carbone\\sig.csv", DataFrame, header=false)
+signal_acq = CSV.read("\\signal_acq.csv", DataFrame, header=false)
+sig = CSV.read("\\sig.csv", DataFrame, header=false)
 
 
 # Calcolo del Residual Sum of Squares (RSS)
